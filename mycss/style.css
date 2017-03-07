@@ -105,13 +105,14 @@ body {
   padding-top: 100px;
   padding-left: 50px;
   line-height: 50px;
+  max-height: 500px;
+  white-space: nowrap;
 }
 
 .layers i {
   color: #fff;
   padding-left: 50px;
   font-size: 50px;
-
 }
 
 .layers i:hover {
@@ -128,6 +129,15 @@ body {
   width: 90%;
   margin: auto;
   border-top: solid 4px #ce2525;
+  padding-top: 50px;
+}
+
+/*.learn span {
+  padding-top: -50px;
+}*/
+
+.col i {
+  padding-top: 20px;
 }
 
 /*  SECTIONS  */
@@ -144,6 +154,7 @@ body {
 	margin: 1% 0 1% 0%;
   margin-top: 75px;
 }
+
 .col:first-child { margin-left: 0; }
 
 /*  GROUPING  */
@@ -238,6 +249,8 @@ body {
 
 .featuredWords {
   width: 40%;
+  float: left;
+  position: absolute;
 }
 
 .featuredWords h1 {
@@ -261,6 +274,29 @@ body {
   font-size: 14px;
   padding-left: 70px;
 }
+
+#myCarousel {
+  width: 50%;
+  float: right;
+  /*padding-top: 200px;*/
+  padding-top: -100px;
+}
+
+#myCarousel img {
+  height: 500px;
+}
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+
 
 /* PLAY SECTION */
 
